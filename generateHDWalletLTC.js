@@ -3,7 +3,7 @@ const bip39 = require('bip39');
 const litecore = require('litecore-lib')
 
 // Generate a random mnemonic (12 words)
-const mnemonic = "123456789";
+const mnemonic = "80000000000000";
 
 // Convert the mnemonic to a seed
 const seed = bip39.mnemonicToSeedSync(mnemonic);
